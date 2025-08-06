@@ -1,0 +1,85 @@
+html {
+    font-size: 62.5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+hr {
+    margin: 3rem;
+}
+
+/* first card */
+
+.rounded-img {
+    border-radius: 90%;
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+}
+
+.container-1 {
+    padding: 2rem;
+    border: 0.2rem solid black;
+    border-radius: 2rem;
+}
+
+.container-section-1 {
+    font-size: 1.8rem;
+    display: flex;
+}
+
+.container-section-2 {
+    display: flex;
+    gap: 2rem;
+}
+
+.titles-name-1 {
+    flex-direction: column;
+}
+
+.name {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.function {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+}
+
+/* Second card */
+
+.container-2 {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.balloon-box {
+    background: black;
+    border-radius: 1rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.balloon-text {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.balloon-box::after {
+    content: "";
+    position: absolute;
+    bottom: -15px; /* Adjust for arrow size */
+    left: 20px; /* Adjust for arrow position along the bubble */
+    border-width: 15px 15px 0 15px; /* Top, Right, Bottom, Left borders */
+    border-style: solid;
+    border-color: black transparent transparent transparent; /* Arrow color matching bubble */
+}
