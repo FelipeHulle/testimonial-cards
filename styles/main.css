@@ -22,6 +22,12 @@ hr {
     object-fit: cover;
 }
 
+.img-opacity {
+    opacity: 50%;
+    width: 6rem;
+    height: 6rem;
+}
+
 .container-1 {
     padding: 2rem;
     border: 0.2rem solid black;
@@ -82,4 +88,90 @@ hr {
     border-width: 15px 15px 0 15px; /* Top, Right, Bottom, Left borders */
     border-style: solid;
     border-color: black transparent transparent transparent; /* Arrow color matching bubble */
+}
+
+
+/* Card 3 */
+
+.container-3 {
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+    width: 100%;
+    height: 18rem;
+}
+
+.squared-img {
+    border-radius: 20%;
+    object-fit: cover;
+}
+
+.box {
+    background-color: black;
+    border-radius: 2.5rem;
+    height: 18rem;
+    overflow-wrap: break-word;
+}
+
+.text {
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.name-card3 {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.title-card3 {
+    color: #cccccc;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.content {
+    padding: 2rem;
+}
+
+.star {
+  width: 1.8rem;
+  height: 1.8rem;
+  fill: #ccc;
+  margin-bottom: 1rem;
+}
+.star.filled {
+  fill: gold;
+}
+
+.container-4 {
+    padding: 4rem;
+    border: 0.1rem solid black;
+    border-radius: 2rem;
+}
+
+.container-section-4 {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.images-selector{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.angle-brackets {
+    font-size: 2rem;
+}
+
+.name-section-4 {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
 }
